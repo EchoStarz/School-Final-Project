@@ -1,6 +1,6 @@
 # School Final Project
 
-A simple monthly budgeting program written in Python. It stores income, expenses, and category budgets in a local JSON file and provides a command-line interface for quick updates and summaries.
+A simple monthly budgeting program written in Python. It stores income, expenses, and category budgets in a local JSON file and provides both a command-line interface and a lightweight Tkinter GUI for quick updates and summaries.
 
 ## Features
 - Record income and expenses with descriptions, dates, and optional categories.
@@ -9,6 +9,15 @@ A simple monthly budgeting program written in Python. It stores income, expenses
 
 ## Getting Started
 The tool uses only the Python standard library and works with Python 3.9+.
+
+### Graphical interface
+Use the GUI to add income/expenses, set budgets, and view monthly summaries without typing commands.
+
+```bash
+python -m budget.gui
+```
+
+On Windows, you can also double-click the bundled `run_gui.bat` to launch the app using your default Python installation.
 
 ### Running commands
 Use the CLI via `python -m budget.cli` and choose a data file location (defaults to `~/.budget/budget_data.json`).
