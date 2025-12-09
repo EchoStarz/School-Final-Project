@@ -1,0 +1,7 @@
+[project]
+name = "school-final-project"
+version = "0.1.0"
+description = "Monthly budgeting CLI using the Python standard library"
+authors = [{ name = "Student" }]
+readme = "README.md"
+requires-python = ">=3.9"
